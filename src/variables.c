@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-void main () {
-    puts("Hello world!");
-
+int main () {
     int cont = 0;
     cont = cont + 1;
 
@@ -26,15 +24,13 @@ void main () {
     scanf("%f %d", &dividendo, &divisor);
     printf("A divisao de %.2f por %d vale %.2f\n", dividendo, divisor, dividendo/divisor);
     
-    
     char ch1, ch2;
-    
     printf("Entre com duas letras:\n");
     
     scanf(" %c", &ch1);
     scanf(" %c", &ch2);
-
-
-    printf("As letras inseridas foram %c e %c.\n", ch1, ch2);
     
+    printf("As letras inseridas foram %c e %c.\n", ch1, ch2);
+
+    return 0;
 }

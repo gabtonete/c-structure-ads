@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(){
-    // TIPOS PRIMITIVOS EM C
+int main () 
+{
     char tipoChar = 'a';
     int tipoInt = 1;
     float tipoFloat = 1.55;
@@ -12,8 +12,9 @@ int main(){
     char tipoCharComHexadecimal = 0x41; // representa o 'A' em hexadecimal
 
     // Atribuição de variáveis em uma string usando control string
-    printf("Os tipos primitivos são:\nChar: %c\nInt: %d\nFloat: %f\nDouble: %f\nChars usando Ascii e Hexadecimal:%c, %c\n\n", 
-        tipoChar, 
+    printf("Os tipos primitivos são:\n");
+    printf("Char: %c - Carácteres (podem vir em sequência de carácteres ou string)\n", tipoChar);
+    printf("Int: %d - Números inteiros\nFloat: %f - Números decimais que ocupam 4 bytes\nDouble: %f\nChars usando Ascii e Hexadecimal:%c, %c\n\n",
         tipoInt, 
         tipoFloat, 
         tipoDouble, 
@@ -37,5 +38,6 @@ int main(){
     printf("Operadores bitwise: Analisam os 0's e 1's de uma variável e faz operações de & ou ||\n");
 
     printf("Atribuição '='\n");
+
     return 0;
 }
