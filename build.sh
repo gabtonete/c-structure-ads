@@ -6,6 +6,7 @@ gcc src/ifelse.c -o built/ifelse
 gcc src/switchcase.c -o built/switchcase
 gcc src/while.c -o built/while
 gcc src/dowhile.c -o built/dowhile
+gcc src/vetor.c -o built/vetor
 
 built/hello
 built/types
@@ -15,3 +16,4 @@ built/switchcase
 built/loop
 built/while
 built/dowhile
+built/vetor
