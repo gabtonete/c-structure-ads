@@ -7,6 +7,7 @@ gcc src/switchcase.c -o built/switchcase
 gcc src/while.c -o built/while
 gcc src/dowhile.c -o built/dowhile
 gcc src/vetor.c -o built/vetor
+gcc src/matrizes.c -o built/matrizes
 
 built/hello
 built/types
@@ -17,3 +18,4 @@ built/loop
 built/while
 built/dowhile
 built/vetor
+built/matrizes

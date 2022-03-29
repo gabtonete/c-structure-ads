@@ -3,7 +3,7 @@
 
 int main()
 {
-    /*int inteiros[10];
+    int inteiros[10];
     for(int i = 0; i < 10; i++)
     {   
         printf("Digite um número: ");
@@ -14,9 +14,9 @@ int main()
     {
         printf("%d\n", inteiros[z]);
     }
-    */
+    
 
-    /*float notas[6];
+    float notas[6];
     for(int x = 0; x < 6; x++)
     {
         printf("Digite uma nota: ");
@@ -30,9 +30,9 @@ int main()
             printf("%.2f\n", notas[n]);
         }
     }
-    */
+    
 
-    /*char cadeia[10];
+    char cadeia[10];
     int a = 0, e = 0, i = 0, o = 0, u = 0;
 
     for(int b = 0; b < 10; b++)
@@ -64,9 +64,9 @@ int main()
     }
 
     printf("Vogais a: %d; Vogais e: %d; Vogais i: %d; Vogais o: %d; Vogais u: %d\n", a, e, i, o, u);
-    */
+    
 
-    /*int numeros[10];
+    int numeros[10];
     int novosNumeros[10];
 
     for(int f = 0; f < 10; f++)
@@ -88,9 +88,9 @@ int main()
     {
         printf("%d\n", novosNumeros[g]);
     }
-    */
+    
 
-    /*
+    
     int seis[6];
     int lista[3];
     int posVet = 0;
@@ -130,7 +130,7 @@ int main()
             printf("Número não encontrado.\n");
         }
     }
-    */
+    
 
     int provas1[3];
     int provas2[3];
